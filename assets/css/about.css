@@ -1,0 +1,248 @@
+.yd-general {
+  position: relative;
+}
+
+.yd-general__bg {
+  position: absolute;
+  left: 0;
+  bottom: 3.75rem;
+  max-width: 100vw;
+}
+
+.yd-general-info {
+  position: relative;
+  padding: 1rem 1.5rem;
+  margin-bottom: 2rem;
+  z-index: 1;
+}
+
+@media (max-width: 991.98px) {
+  .yd-general-info {
+    background: #fff;
+    padding: 2rem 2rem;
+    -webkit-box-shadow: 0px 0px 1px rgba(12, 26, 75, 0.1),
+      0px 10px 16px rgba(20, 37, 63, 0.06);
+    box-shadow: 0px 0px 1px rgba(12, 26, 75, 0.1),
+      0px 10px 16px rgba(20, 37, 63, 0.06);
+    border-radius: 1rem;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .yd-general-info {
+    padding: 2rem 1rem;
+  }
+}
+
+.yd-general-info__title {
+  color: #4c6fff;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 991.98px) {
+  .yd-general-info__title {
+    font-size: 1.625rem;
+    text-align: center;
+  }
+}
+
+.yd-general-info p {
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #718096;
+}
+
+.yd-general-info p span {
+  color: #4c6fff;
+}
+
+@media (max-width: 991.98px) {
+  .yd-general-info p {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+.yd-general-info::before {
+  content: "";
+  background-image: url("~assets/img/svg/title-pre.svg");
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+@media (max-width: 991.98px) {
+  .yd-general-info::before {
+    background-size: 60px 60px;
+    width: 60px;
+    height: 60px;
+    top: 1rem;
+    left: 30%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .yd-general-info::before {
+    left: 20%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .yd-general-info::before {
+    left: 5%;
+  }
+}
+
+.center-title {
+  font-weight: bold;
+  font-size: 3.5rem;
+  color: #4c6fff;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.center-title-info {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: #4a5568;
+}
+
+.center-title-info span {
+  color: #4c6fff;
+}
+
+@media (max-width: 767.98px) {
+  .center-title {
+    font-size: 2rem;
+  }
+}
+
+.benefits {
+  text-align: center;
+  height: 100%;
+  padding: 3rem 1.75rem;
+  border: 10px solid #4c6fff;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0px 30px 40px rgba(122, 119, 255, 0.08);
+  box-shadow: 0px 30px 40px rgba(122, 119, 255, 0.08);
+}
+
+@media (max-width: 991.98px) {
+  .benefits {
+    padding: 2rem 1rem;
+  }
+}
+
+.benefits-ico {
+  padding: 1rem;
+  border: 3px solid #4c6fff;
+  border-radius: 100%;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+.benefits .title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #2d3748;
+  margin-bottom: 1rem;
+}
+
+.benefits .text {
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: #4a5568;
+}
+
+.yd-underline {
+  position: relative;
+}
+
+.yd-underline::before {
+  content: "";
+  position: absolute;
+  bottom: -50%;
+  background-image: url("~assets/img/svg/yd-underline.svg");
+  background-size: 300px 70px;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 70px;
+}
+
+@media (max-width: 767.98px) {
+  .yd-underline::before {
+    background-size: 180px 30px;
+    width: 180px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .yd-mission {
+    text-align: center;
+  }
+}
+
+.yd-mission-ico {
+  padding: 1.25rem;
+  background-color: #4c70ff1f;
+  border-radius: 1.25rem;
+  display: inline-block;
+  margin-bottom: 1.25rem;
+}
+
+.yd-mission .content p {
+  font-size: 1rem;
+  color: #27272e;
+}
+
+.yd-stats-bg {
+  background-color: #4c70ff1f;
+  padding: 3rem 0;
+}
+
+@media (max-width: 767.98px) {
+  .yd-stats-bg .row {
+    overflow-y: auto;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+}
+
+.yd-stats .title {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #4c6fff;
+}
+
+@media (max-width: 575.98px) {
+  .yd-stats .title {
+    font-size: 2rem;
+  }
+}
+
+.yd-stats p {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #2d3748;
+}
+
+@media (max-width: 575.98px) {
+  .yd-stats p {
+    font-size: 0.75rem;
+  }
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yaqin-doctor.uz/sitemap.xml
